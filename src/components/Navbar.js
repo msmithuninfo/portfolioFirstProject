@@ -42,7 +42,7 @@ function Navbar() {
                         <li className='nav-item'><Link to='/products' className='nav-links' onClick={closeMobileMenu}>Products</Link></li>
                         <li className='nav-item'><Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>Gallery</Link></li>
                         <li className='nav-item'><Link to='/videos' className='nav-links' onClick={closeMobileMenu}>Videos</Link></li>
-                        <li className='nav-item'><Link to='/contact' className='nav-links' onClick={closeMobileMenu}>Contact Us</Link></li>
+                        <li className='nav-item'><Link to='/contactus' className='nav-links' onClick={closeMobileMenu}>Contact Us</Link></li>
 
 
                         <li className='nav-item'><Link  className='nav-links-mobile' to='/sign-up' onClick={closeMobileMenu}>Sign Up</Link></li>
