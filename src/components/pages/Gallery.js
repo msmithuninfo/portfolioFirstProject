@@ -1,6 +1,22 @@
+
 import React from 'react';
 import '../../App.css';
+import Cards from '../ImageGallery/Cards';
 
-export default function Gallery() {
-  return <h1 className='gallery'>Gallery</h1>;
+
+function Gallery() {
+  return (
+    <>
+      <h1 style={{marginTop: "20px"}}>Image Gallery</h1>
+      <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
+
+    </>
+  );
 }
+
+export default Gallery;
