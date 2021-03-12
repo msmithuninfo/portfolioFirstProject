@@ -9,6 +9,7 @@ import Products from './components/pages/Products';
 import Gallery from './components/pages/Gallery';
 import Videos from './components/pages/Videos';
 import ContactUs from './components/pages/ContactUs';
+import SignUp from './components/pages/SignUp';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/gallery' component={Gallery} />
           <Route path='/videos' component={Videos} />
           <Route path='/contactus' component={ContactUs} />
+          <Route path='/sign-up' component={SignUp} />
         </Switch>
       </Router>
     </>

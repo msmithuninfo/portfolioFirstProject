@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
-import { Button } from './Button';
+import '../../App.css';
+import { Button } from '../Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -17,6 +17,7 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
+
         <Button
           className='btns'
           buttonStyle='btn--primary'
